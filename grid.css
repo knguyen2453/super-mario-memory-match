@@ -1,0 +1,242 @@
+.modal-overlay {
+  height: 97vh;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.modalcontent {
+  color: white;
+  font-size: 67px;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: fantasy;
+  font-style: oblique;
+  background-image: url(assets/images/mario-modal.png);
+  border: solid 5px black;
+  height: 500px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 90px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  max-width: 1500px;
+  margin: auto;
+  background-image: url(assets/images/mario-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  margin-bottom: .5rem;
+  justify-content: center;
+}
+
+.headerrow {
+  width: 100%;
+  height: 15%;
+  font-size: 70px;
+  font-weight: bold;
+  display: flex;
+  margin-bottom: .5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.gamerow {
+  width: 100%;
+  height: 85%;
+  display: flex;
+  margin-bottom: .5rem;
+  justify-content: center;
+}
+
+.cardrow {
+  width: 100%;
+  height: 33%;
+  display: flex;
+}
+
+body {
+  height: 97vh;
+}
+
+.aside {
+  height: 100%;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  height: 100%;
+  padding-left: 100px;
+  flex-direction: row;
+  text-align: center;
+}
+
+.col-1 {
+  width: 8%;
+}
+
+.col-2 {
+  width: 16%;
+}
+
+.col-3 {
+  width: 24%;
+}
+
+.col-4 {
+  width: 32%;
+}
+
+.col-5 {
+  width: 40%;
+}
+
+.col-6 {
+  width: 48%;
+}
+
+.col-7 {
+  width: 56%;
+}
+
+.col-8 {
+  width: 64%;
+}
+
+.col-9 {
+  width: 72%;
+}
+
+.col-10 {
+  width: 80%;
+}
+
+.col-11 {
+  width: 88%;
+}
+
+.col-12 {
+  width: 96%;
+}
+
+.score-section {
+  color: white;
+  font-family: fantasy;
+  font-size: 35px;
+  height: 12%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-bottom: 14px;
+}
+
+.score-section2 {
+  margin-bottom: 30px;
+}
+.score-section3 {
+  background-image: url(assets/images/mario-statssection.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.card {
+  width: 16%;
+  height: 90%;
+  margin: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  transform-style: preserve-3d;
+  border-radius: 10px;
+}
+
+.card-front, .card-back {
+  height: 100%;
+  width: 95%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.is-flipped {
+  transform: rotateY(360deg);
+  transition: transform 1s;
+}
+
+.card-back {
+  background-image: url(assets/images/mario-card.jpg);
+}
+
+.mario-logo {
+  background-image: url(assets/images/mario-cards1.png);
+}
+
+.koopa-logo {
+  background-image: url(assets/images/mario-cards2.png);
+}
+
+.bowser-logo {
+  background-image: url(assets/images/mario-cards3.png);
+}
+
+.wario-logo {
+  background-image: url(assets/images/mario-cards4.png);
+}
+
+.yoshi-logo {
+  background-image: url(assets/images/mario-cards5.png);
+}
+
+.peach-logo {
+  background-image: url(assets/images/mario-cards6.png);
+}
+
+.toad-logo {
+  background-image: url(assets/images/mario-cards7.png);
+}
+
+.goomba-logo {
+  background-image: url(assets/images/mario-cards8.png);
+}
+
+.luigi-logo {
+  background-image: url(assets/images/mario-cards9.png);
+}
+
+.hidden {
+  display: none;
+}
+
+.button1 {
+  background-color: white;
+  font-family: fantasy;
+  font-size: 24px;
+  border-radius: 21px;
+  border: 4px solid black;
+  padding: 10px;
+}
